@@ -1,7 +1,7 @@
 ﻿#include <iostream>
 #include <string>
 
-#define MAIN2 // 정의한 변수명을 적어준다.
+//#define MAIN2 // 정의한 변수명을 적어준다.
 
 
 #ifdef MAIN2 // main이 있는 함수를 감싸준다.
