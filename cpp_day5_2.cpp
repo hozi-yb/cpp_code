@@ -1,7 +1,7 @@
 #include <iostream>
 #include <string>
 
-#define MAIN5_2
+//#define MAIN5_2
 
 #ifdef MAIN5_2
 
