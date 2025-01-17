@@ -32,8 +32,7 @@ int main()
 
 
 	cout << "가로, 세로 길이를 입력하세요. (가로 세로) : ";
-	cin >> rect1.width;
-	cin >> rect1.height;
+	cin >> rect1.width >> rect1.height;
 	// 스페이스바 기준으로 나눠짐;; 버퍼 때문에?? 버퍼에 담았다ㅏㄱ 짤랐다가 다음 변수에 집어넣는듯.
 	// flush를 이용해서 버퍼를 지우기도 한다.
 	int a = 0;
