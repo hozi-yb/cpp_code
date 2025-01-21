@@ -218,7 +218,7 @@ class boong_eo
 private:
 	string inside;
 	int price;
-	int val;
+	int pcs;
 
 public:
 	boong_eo() {
@@ -231,18 +231,19 @@ public:
 		cout << "ÇÑ °³ÀÇ °¡°ÝÀº ¾ó¸¶·Î ÇÒ±î¿ä : " << endl;
 		cin >> price;
 		cout << "¸î °³¸¦ ¸¸µé±î¿ä : " << endl;
-		cin >> val;
+		cin >> pcs;
 		
 	}
 	void print() {
-		cout << "ºØ¾î»§ Á¤º¸ : " << endl;
+		cout << "+++ºØ¾î»§ Á¤º¸+++" << endl;
 		cout << "¼ÓÀç·á : " << inside << endl;
-		cout << "°¹¼ö : " << val << endl;
-		cout << "ÃÑ °¡°Ý : " << price * val << endl;
+		cout << "°¹¼ö : " << pcs << endl;
+		cout << "ÃÑ °¡°Ý : " << price * pcs << endl;
 	}
 
 	~boong_eo() {
-		cout << "ºØ¾î»§ ¸¸µé±â ³¡!" << endl;
+		cout << inside << "ºØ¾î»§ ¸¸µé±â ³¡!" << endl;
+		cout << "+++++++++++++++++" << endl;
 	}
 
 };
