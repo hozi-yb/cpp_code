@@ -141,6 +141,8 @@
     <ClCompile Include="cpp_day7.cpp" />
     <ClCompile Include="cpp_day8.cpp" />
     <ClCompile Include="cpp_day8_2.cpp" />
+    <ClCompile Include="cpp_day9.cpp" />
+    <ClCompile Include="cpp_day9_2.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

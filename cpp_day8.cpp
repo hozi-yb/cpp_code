@@ -278,15 +278,6 @@ int main() {
 
 	int* arr = new int[2];
 
-	for (int i = 0; i < h; i++)
-	{
-		int* arr = new int[2]; // 이렇게 해주면 h * 2 개가 동적배열에 새로 할당되는것이다.
-	}
-	
-	arr[21] = 2;
-
-	cout << arr[21];
-
 	delete[] arr;
 
 */
